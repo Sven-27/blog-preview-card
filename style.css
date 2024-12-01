@@ -1,16 +1,58 @@
 @font-face {
-  font-family: 'The name of the Font Family Here';
-  src: URL('font.ttf') format('truetype');
+  font-family: 'Figtree-ExtraBold';
+  src: URL('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree-SemiBold';
+  src: URL('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree-VariableFont_wght';
+  src: URL('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree-Italic-VariableFont_wght';
+  src: URL('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+:root{
+  // colors
+  --yellow: #F4D04E;
+  --gray-light: #6B6B6B;
+  --gray-dark: #111;
+  --white: #FFF;
+
+  // line height
+  --line-height: 1.5;
+
+  //spacing
+  --spacing-xl: 24px;
+  --spacing-l: 12px;
+  --spacing-m: 8px;
+  --spacing-s: 4px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree-VariableFont_wght"
 }
 
 body{
 
   //footer text
   footer { 
-    font-size: 11px; 
-    text-align: center; 
+    p{
+      font-size: 11px; 
+      text-align: center; 
 
-    a { color: hsl(228, 45%, 44%);
+      a { 
+        color: hsl(228, 45%, 44%);
+      }
     }
   }
 }
