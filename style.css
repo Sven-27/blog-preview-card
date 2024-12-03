@@ -47,7 +47,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background: var(--yellow);
+  background: #f4d04e;
 
   main {
     width: 327px;
